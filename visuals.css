@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    background-color: rgb(244, 213, 182);
+  
+}
+
+h2{
+    margin-left: 40px;
+}
+
+.navBar{
+    margin-left: 40px;
+}
+
+body {
+        background-color: rgb(237, 170, 102);
+
+    }
+
+
+
+footer {
+        background-color: rgb(247, 223, 198);
+        margin-left: 40px;
+    }
+
+
+.butterfly-images {
+    display: flex;             /* put images in a row */
+    gap: 10px;                 /* space between them */
+    margin: 10px 0;            /* some spacing above/below */
+    flex-wrap: wrap;           /* wrap to next line if screen is too narrow */
+}
+
+.butterfly-images img {
+    width: 300px;              /* make smaller */
+    height: auto;              /* keep aspect ratio */
+    border: 1px solid #ccc;    /* subtle border */
+    border-radius: 6px;        /* rounded corners */
+}
+
+ol li {
+    border: 2px solid #444;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
