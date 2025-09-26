@@ -92,8 +92,6 @@ const butterflies = [
 
 
 
-
-
 searchBox.addEventListener("keydown", function(event) { //This is to make the enter key work
     if (event.key == "Enter")
     {
